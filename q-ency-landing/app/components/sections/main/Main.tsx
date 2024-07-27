@@ -23,8 +23,8 @@ const MainSection: React.FC = () => {
         <a href="#download" className="bg-purple-500 text- font-semibold border-[1px] border-black/60 px-6 py-3 rounded-full hover:bg-purple-700 hover:duration-200 duration-300 drop-shadow-[0_1.5px_30px_rgba(0,0,0,0.3)]">DESCARGAR</a>
       </div>
       <div className="relative flex justify-center">
-        <Parallax translateY={['50', '-100']} className="absolute xl:top-1/4 xl:-translate-y-20 top-1/4 drop-shadow-[0_1.5px_30px_rgba(0,0,0,5)]">
-          <Image src={mobile} alt="Imagen del celular" className="w-[38rem] h-[36rem] 2xl:w-[40rem] 2xl:h-[40rem] hover:scale-105 hover:duration-200 duration-300" />
+        <Parallax translateY={['50', '-100']} className="absolute w-[38rem] h-[36rem] 2xl:w-[40rem] 2xl:h-[40rem] xl:top-1/4 xl:-translate-y-20 top-1/4 drop-shadow-[0_1.5px_30px_rgba(0,0,0,5)]">
+          <Image src={mobile} alt="Imagen del celular" fill quality={100} className="hover:scale-105 hover:duration-200 duration-300" />
         </Parallax>
       </div>
     </section>
